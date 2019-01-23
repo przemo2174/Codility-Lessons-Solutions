@@ -4,7 +4,13 @@ using System.Text;
 
 namespace CodilityLessons.Lesson3_TimeComplexity
 {
-    class FrogJmp
+    public static class FrogJmp
     {
+        public static int Solution(int X, int Y, int D)
+        {
+            int distance = Y - X;
+            int jumps = (int)Math.Ceiling((double)distance / D);
+            return jumps;
+        }
     }
 }
