@@ -6,6 +6,7 @@ namespace CodilityLessons.Lesson3_TimeComplexity
 {
     public static class FrogJmp
     {
+        //100% score. O(1) time complexity
         public static int Solution(int X, int Y, int D)
         {
             int distance = Y - X;
